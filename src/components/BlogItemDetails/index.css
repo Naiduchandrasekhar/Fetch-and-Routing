@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+.blogItemDetailContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.titleName {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.avatarAuthor {
+  display: flex;
+  align-items: center;
+}
+
+.authorName {
+  font-size: 14px;
+}
+
+.blogDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40vw;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  color: #2f4f4f;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .content {
+    color: #2f4f4f;
+    font-family: 'Roboto';
+    font-size: 12px;
+  }
+}
